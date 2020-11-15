@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -7,6 +8,7 @@ using IGI.Models;
 using IGI.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -18,9 +20,13 @@ namespace IGI.Controllers
     {
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
+        UserContext context;
+        IWebHostEnvironment appEnvironment;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserContext context, IWebHostEnvironment appEnvironment, UserManager<User> userManager, SignInManager<User> signInManager)
         {
+            this.context = context;
+            this.appEnvironment = appEnvironment;
             _userManager = userManager;
             _signInManager = signInManager;
         }
@@ -36,11 +42,26 @@ namespace IGI.Controllers
         {
             if (ModelState.IsValid)
             {
-                User user = new User { Email = model.Email, UserName = model.Username };
+                string path = null, imageName;
+                Image avatar = null;
+                if (model.Avatar != null)
+                {
+                    imageName = model.Username + "_" + DateTime.Now.ToString().Replace(' ', '_') + "_" + model.Avatar.FileName;
+                    //path = "\\files\\" + imageName;
+                    path = "/files/" + model.Avatar.FileName;
+                    using (var fileStream = new FileStream(appEnvironment.WebRootPath + path, FileMode.Create))
+                    {
+                        await model.Avatar.CopyToAsync(fileStream);
+                    }
+                    avatar = new Image { Name = imageName, Path = path };
+                }
+                User user = new User { Email = model.Email, UserName = model.Username, Path = path };
                 // добавляем пользователя
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    context.Files.Add(avatar);
+                    context.SaveChanges();
                     // установка куки
                     await _signInManager.SignInAsync(user, false);
                     return RedirectToAction("Index", "Home");

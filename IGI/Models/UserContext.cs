@@ -12,7 +12,9 @@ namespace IGI.Models
         public UserContext(DbContextOptions<UserContext> options)
             :base(options)
         {
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
+        public DbSet<Image> Files { get; set; }
     }
 }

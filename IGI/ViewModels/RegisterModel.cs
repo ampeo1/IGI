@@ -12,7 +12,7 @@ namespace IGI.ViewModels
         [Required(ErrorMessage = "Не указан Username")]
         public string Username { get; set; }
 
-        //public IFormFile Avatar { get; set; }
+        public IFormFile Avatar { get; set; }
 
         [Required(ErrorMessage = "Не указан Email")]
         public string Email { get; set; }
