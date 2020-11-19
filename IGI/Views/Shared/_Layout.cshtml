@@ -6,6 +6,11 @@
     <title>@ViewData["Title"] - IGI</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link id="theme-style" rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="~/plugins/font-awesome/css/font-awesome.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header>
@@ -18,8 +23,11 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Page" asp-action="Page">Моя страница</a>
+                    <li class="nav-item"> 
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Page">Моя страница</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="AllUsers">Пользователи</a>
                     </li>
                 </ul>
             </div>

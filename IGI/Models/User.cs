@@ -8,7 +8,28 @@ namespace IGI.Models
 {
     public class User: IdentityUser
     {
-       public string Path { get; set; }
+        public string Path { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public byte Age { get; set; }
+        public string Country { get; set; }
+
+        public User(string userName, string email, string path, string name, string surname, byte age, string country)
+        {
+            if (string.IsNullOrEmpty(path))
+            {
+                path = "/files/noAvatar.jpg";
+            }
+            UserName = userName;
+            Email = email;
+            Path = path;
+            Name = name;
+            Surname = surname;
+            Age = age;
+            Country = country;
+        }
+
+
         //public int Id { get; set; }
         //public string Username { get; set; }
         //public string Email { get; set; }

@@ -1,0 +1,1687 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1225px;
+	 height: 3450px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: -231px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 1602px;
+	 height: 4762px;
+	 z-index:1;
+} 
+
+ #Skype 
+{ 
+	 left: 747px; 
+	 top: 3380px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 19px;
+	 z-index:2;
+} 
+
+ #Dribbble3 
+{ 
+	 left: 792px; 
+	 top: 3379px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 20px;
+	 z-index:3;
+} 
+
+ #Twitter 
+{ 
+	 left: 700px; 
+	 top: 3380px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 18px;
+	 z-index:4;
+} 
+
+ #Rectangle45 
+{ 
+	 left: 734px; 
+	 top: 3378px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 21px;
+	 z-index:5;
+} 
+
+ #Rectangle45copy 
+{ 
+	 left: 779px; 
+	 top: 3378px; 
+	 position: absolute; 
+	 width: 3px;
+	 height: 21px;
+	 z-index:6;
+} 
+
+ #CopyrightJunaedAhmed 
+{ 
+	 left: 631px; 
+	 top: 3414px; 
+	 position: absolute; 
+	 width: 252px;
+	 height: 12px;
+	 z-index:7;
+} 
+
+ #Home 
+{ 
+	 left: 786px; 
+	 top: 2977px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 35px;
+	 z-index:8;
+} 
+
+ #Location 
+{ 
+	 left: 866px; 
+	 top: 2969px; 
+	 position: absolute; 
+	 width: 71px;
+	 height: 15px;
+	 z-index:9;
+} 
+
+ #324GoldenTowerAmbork 
+{ 
+	 left: 865px; 
+	 top: 3007px; 
+	 position: absolute; 
+	 width: 258px;
+	 height: 15px;
+	 z-index:10;
+} 
+
+ #Mail2 
+{ 
+	 left: 785px; 
+	 top: 3088px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 35px;
+	 z-index:11;
+} 
+
+ #Email 
+{ 
+	 left: 866px; 
+	 top: 3079px; 
+	 position: absolute; 
+	 width: 46px;
+	 height: 15px;
+	 z-index:12;
+} 
+
+ #junaeddeviserwebcom 
+{ 
+	 left: 863px; 
+	 top: 3117px; 
+	 position: absolute; 
+	 width: 166px;
+	 height: 14px;
+	 z-index:13;
+} 
+
+ #Phone2 
+{ 
+	 left: 784px; 
+	 top: 3198px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 34px;
+	 z-index:14;
+} 
+
+ #TollFreeCall 
+{ 
+	 left: 865px; 
+	 top: 3189px; 
+	 position: absolute; 
+	 width: 109px;
+	 height: 15px;
+	 z-index:15;
+} 
+
+ #layer_08002346578 
+{ 
+	 left: 865px; 
+	 top: 3228px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 12px;
+	 z-index:16;
+} 
+
+ #Divider 
+{ 
+	 left: 731px; 
+	 top: 2977px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 253px;
+	 z-index:17;
+} 
+
+ #Rectangle44copy3 
+{ 
+	 left: 558px; 
+	 top: 3233px; 
+	 position: absolute; 
+	 width: 98px;
+	 height: 38px;
+	 z-index:18;
+} 
+
+ #HireMe 
+{ 
+	 left: 578px; 
+	 top: 3246px; 
+	 position: absolute; 
+	 width: 60px;
+	 height: 13px;
+	 z-index:19;
+} 
+
+ #Rectangle44 
+{ 
+	 left: 388px; 
+	 top: 3006px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 37px;
+	 z-index:20;
+} 
+
+ #Rectangle44copy 
+{ 
+	 left: 388px; 
+	 top: 3062px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 37px;
+	 z-index:21;
+} 
+
+ #Rectangle44copy2 
+{ 
+	 left: 388px; 
+	 top: 3117px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 98px;
+	 z-index:22;
+} 
+
+ #Name 
+{ 
+	 left: 403px; 
+	 top: 3020px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 11px;
+	 z-index:23;
+} 
+
+ #Email_0 
+{ 
+	 left: 403px; 
+	 top: 3075px; 
+	 position: absolute; 
+	 width: 40px;
+	 height: 12px;
+	 z-index:24;
+} 
+
+ #Message 
+{ 
+	 left: 403px; 
+	 top: 3132px; 
+	 position: absolute; 
+	 width: 61px;
+	 height: 13px;
+	 z-index:25;
+} 
+
+ #LeaveaMessage 
+{ 
+	 left: 391px; 
+	 top: 2964px; 
+	 position: absolute; 
+	 width: 177px;
+	 height: 21px;
+	 z-index:26;
+} 
+
+ #HeaderBgcopy3 
+{ 
+	 left: 271px; 
+	 top: 2454px; 
+	 position: absolute; 
+	 width: 957px;
+	 height: 431px;
+	 z-index:27;
+} 
+
+ #Layer35 
+{ 
+	 left: 267px; 
+	 top: 2406px; 
+	 position: absolute; 
+	 width: 980px;
+	 height: 534px;
+	 z-index:28;
+} 
+
+ #HeaderBgcopy4 
+{ 
+	 left: 269px; 
+	 top: 2454px; 
+	 position: absolute; 
+	 width: 959px;
+	 height: 431px;
+	 z-index:29;
+} 
+
+ #layer_90 
+{ 
+	 left: 675px; 
+	 top: 2651px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 13px;
+	 z-index:30;
+} 
+
+ #layer_98 
+{ 
+	 left: 675px; 
+	 top: 2725px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 13px;
+	 z-index:31;
+} 
+
+ #layer_70 
+{ 
+	 left: 676px; 
+	 top: 2803px; 
+	 position: absolute; 
+	 width: 26px;
+	 height: 13px;
+	 z-index:32;
+} 
+
+ #UserExperience 
+{ 
+	 left: 390px; 
+	 top: 2619px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 18px;
+	 z-index:33;
+} 
+
+ #UserInterface 
+{ 
+	 left: 390px; 
+	 top: 2693px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 14px;
+	 z-index:34;
+} 
+
+ #WebDesign 
+{ 
+	 left: 389px; 
+	 top: 2771px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 18px;
+	 z-index:35;
+} 
+
+ #Rectangle3 
+{ 
+	 left: 388px; 
+	 top: 2655px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 7px;
+	 z-index:36;
+} 
+
+ #Rectangle3copy2 
+{ 
+	 left: 388px; 
+	 top: 2654px; 
+	 position: absolute; 
+	 width: 225px;
+	 height: 8px;
+	 z-index:37;
+} 
+
+ #Ellipse17 
+{ 
+	 left: 600px; 
+	 top: 2647px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 z-index:38;
+} 
+
+ #Rectangle3_0 
+{ 
+	 left: 388px; 
+	 top: 2729px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 7px;
+	 z-index:39;
+} 
+
+ #Rectangle3copy2_0 
+{ 
+	 left: 388px; 
+	 top: 2729px; 
+	 position: absolute; 
+	 width: 248px;
+	 height: 7px;
+	 z-index:40;
+} 
+
+ #Ellipse17_0 
+{ 
+	 left: 626px; 
+	 top: 2721px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 z-index:41;
+} 
+
+ #Rectangle3_1 
+{ 
+	 left: 388px; 
+	 top: 2807px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 7px;
+	 z-index:42;
+} 
+
+ #Rectangle3copy2_1 
+{ 
+	 left: 388px; 
+	 top: 2807px; 
+	 position: absolute; 
+	 width: 174px;
+	 height: 7px;
+	 z-index:43;
+} 
+
+ #Ellipse17_1 
+{ 
+	 left: 547px; 
+	 top: 2799px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 z-index:44;
+} 
+
+ #layer_90_0 
+{ 
+	 left: 1055px; 
+	 top: 2651px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 13px;
+	 z-index:45;
+} 
+
+ #layer_80 
+{ 
+	 left: 1055px; 
+	 top: 2725px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 11px;
+	 z-index:46;
+} 
+
+ #layer_96 
+{ 
+	 left: 1055px; 
+	 top: 2803px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 13px;
+	 z-index:47;
+} 
+
+ #UserExperience_0 
+{ 
+	 left: 770px; 
+	 top: 2619px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 18px;
+	 z-index:48;
+} 
+
+ #UserInterface_0 
+{ 
+	 left: 770px; 
+	 top: 2693px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 14px;
+	 z-index:49;
+} 
+
+ #WebDesign_0 
+{ 
+	 left: 769px; 
+	 top: 2771px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 18px;
+	 z-index:50;
+} 
+
+ #Rectangle3_2 
+{ 
+	 left: 768px; 
+	 top: 2655px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 7px;
+	 z-index:51;
+} 
+
+ #Rectangle3copy2_2 
+{ 
+	 left: 768px; 
+	 top: 2654px; 
+	 position: absolute; 
+	 width: 225px;
+	 height: 8px;
+	 z-index:52;
+} 
+
+ #Ellipse17_2 
+{ 
+	 left: 980px; 
+	 top: 2647px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 z-index:53;
+} 
+
+ #Rectangle3_3 
+{ 
+	 left: 768px; 
+	 top: 2729px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 7px;
+	 z-index:54;
+} 
+
+ #Rectangle3copy2_3 
+{ 
+	 left: 768px; 
+	 top: 2729px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 7px;
+	 z-index:55;
+} 
+
+ #Ellipse17_3 
+{ 
+	 left: 942px; 
+	 top: 2721px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 z-index:56;
+} 
+
+ #Rectangle3_4 
+{ 
+	 left: 768px; 
+	 top: 2807px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 7px;
+	 z-index:57;
+} 
+
+ #Rectangle3copy2_4 
+{ 
+	 left: 768px; 
+	 top: 2807px; 
+	 position: absolute; 
+	 width: 237px;
+	 height: 7px;
+	 z-index:58;
+} 
+
+ #Ellipse17_4 
+{ 
+	 left: 995px; 
+	 top: 2799px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 z-index:59;
+} 
+
+ #Rectangle43 
+{ 
+	 left: 388px; 
+	 top: 2571px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 5px;
+	 z-index:60;
+} 
+
+ #MySkills 
+{ 
+	 left: 390px; 
+	 top: 2520px; 
+	 position: absolute; 
+	 width: 129px;
+	 height: 32px;
+	 z-index:61;
+} 
+
+ #Rectangle43copy2 
+{ 
+	 left: 388px; 
+	 top: 1881px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 5px;
+	 z-index:62;
+} 
+
+ #Shape10 
+{ 
+	 left: 758px; 
+	 top: 1943px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 422px;
+	 z-index:63;
+} 
+
+ #Ellipse4 
+{ 
+	 left: 742px; 
+	 top: 1914px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:64;
+} 
+
+ #Ellipse4copy2 
+{ 
+	 left: 751px; 
+	 top: 1923px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:65;
+} 
+
+ #Ellipse4copy 
+{ 
+	 left: 742px; 
+	 top: 2074px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:66;
+} 
+
+ #Ellipse4copy3 
+{ 
+	 left: 751px; 
+	 top: 2082px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:67;
+} 
+
+ #Ellipse4_0 
+{ 
+	 left: 742px; 
+	 top: 2183px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:68;
+} 
+
+ #Ellipse4copy4 
+{ 
+	 left: 751px; 
+	 top: 2192px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:69;
+} 
+
+ #Ellipse4copy_0 
+{ 
+	 left: 742px; 
+	 top: 2342px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:70;
+} 
+
+ #Ellipse4copy5 
+{ 
+	 left: 751px; 
+	 top: 2350px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:71;
+} 
+
+ #RoundedRectangle3 
+{ 
+	 left: 388px; 
+	 top: 1990px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:72;
+} 
+
+ #Jan2013Dec2014 
+{ 
+	 left: 408px; 
+	 top: 2030px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:73;
+} 
+
+ #Loremipsumdolorsitam 
+{ 
+	 left: 409px; 
+	 top: 2055px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:74;
+} 
+
+ #OxfordUniversity 
+{ 
+	 left: 548px; 
+	 top: 2007px; 
+	 position: absolute; 
+	 width: 143px;
+	 height: 16px;
+	 z-index:75;
+} 
+
+ #ArtMultimedia 
+{ 
+	 left: 407px; 
+	 top: 2008px; 
+	 position: absolute; 
+	 width: 128px;
+	 height: 13px;
+	 z-index:76;
+} 
+
+ #RoundedRectangle3_0 
+{ 
+	 left: 388px; 
+	 top: 2258px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:77;
+} 
+
+ #Jan2013Dec2014_0 
+{ 
+	 left: 408px; 
+	 top: 2298px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:78;
+} 
+
+ #Loremipsumdolorsitam_0 
+{ 
+	 left: 409px; 
+	 top: 2323px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:79;
+} 
+
+ #LusofonaCollege 
+{ 
+	 left: 537px; 
+	 top: 2275px; 
+	 position: absolute; 
+	 width: 146px;
+	 height: 16px;
+	 z-index:80;
+} 
+
+ #PostGraduation 
+{ 
+	 left: 408px; 
+	 top: 2276px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 13px;
+	 z-index:81;
+} 
+
+ #RoundedRectangle3_1 
+{ 
+	 left: 789px; 
+	 top: 1913px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:82;
+} 
+
+ #AIUB 
+{ 
+	 left: 939px; 
+	 top: 1932px; 
+	 position: absolute; 
+	 width: 51px;
+	 height: 15px;
+	 z-index:83;
+} 
+
+ #Jan2013Dec2014_1 
+{ 
+	 left: 832px; 
+	 top: 1955px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:84;
+} 
+
+ #Loremipsumdolorsitam_1 
+{ 
+	 left: 833px; 
+	 top: 1980px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:85;
+} 
+
+ #HighSchool 
+{ 
+	 left: 832px; 
+	 top: 1933px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 16px;
+	 z-index:86;
+} 
+
+ #RoundedRectangle3_2 
+{ 
+	 left: 789px; 
+	 top: 2181px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:87;
+} 
+
+ #Jan2013Dec2014_2 
+{ 
+	 left: 832px; 
+	 top: 2223px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:88;
+} 
+
+ #Loremipsumdolorsitam_2 
+{ 
+	 left: 833px; 
+	 top: 2248px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:89;
+} 
+
+ #LeadingUniversty 
+{ 
+	 left: 969px; 
+	 top: 2200px; 
+	 position: absolute; 
+	 width: 149px;
+	 height: 16px;
+	 z-index:90;
+} 
+
+ #BachelorDegree 
+{ 
+	 left: 832px; 
+	 top: 2201px; 
+	 position: absolute; 
+	 width: 127px;
+	 height: 16px;
+	 z-index:91;
+} 
+
+ #Education 
+{ 
+	 left: 392px; 
+	 top: 1840px; 
+	 position: absolute; 
+	 width: 148px;
+	 height: 25px;
+	 z-index:92;
+} 
+
+ #RoundedRectangle3_3 
+{ 
+	 left: 388px; 
+	 top: 1294px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:93;
+} 
+
+ #Jan2013Dec2014_3 
+{ 
+	 left: 408px; 
+	 top: 1334px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:94;
+} 
+
+ #Loremipsumdolorsitam_3 
+{ 
+	 left: 409px; 
+	 top: 1359px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:95;
+} 
+
+ #DeviserWeb 
+{ 
+	 left: 540px; 
+	 top: 1311px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 15px;
+	 z-index:96;
+} 
+
+ #CEOFounder 
+{ 
+	 left: 407px; 
+	 top: 1312px; 
+	 position: absolute; 
+	 width: 115px;
+	 height: 13px;
+	 z-index:97;
+} 
+
+ #RoundedRectangle3_4 
+{ 
+	 left: 388px; 
+	 top: 1562px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:98;
+} 
+
+ #Jan2013Dec2014_4 
+{ 
+	 left: 408px; 
+	 top: 1602px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:99;
+} 
+
+ #Loremipsumdolorsitam_4 
+{ 
+	 left: 409px; 
+	 top: 1627px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:100;
+} 
+
+ #StarLab 
+{ 
+	 left: 568px; 
+	 top: 1580px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 15px;
+	 z-index:101;
+} 
+
+ #MarketingManager 
+{ 
+	 left: 408px; 
+	 top: 1580px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 16px;
+	 z-index:102;
+} 
+
+ #RoundedRectangle3_5 
+{ 
+	 left: 789px; 
+	 top: 1217px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:103;
+} 
+
+ #Academy 
+{ 
+	 left: 961px; 
+	 top: 1236px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 16px;
+	 z-index:104;
+} 
+
+ #Jan2013Dec2014_5 
+{ 
+	 left: 832px; 
+	 top: 1259px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:105;
+} 
+
+ #Loremipsumdolorsitam_5 
+{ 
+	 left: 833px; 
+	 top: 1284px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:106;
+} 
+
+ #UIUXDesigner 
+{ 
+	 left: 832px; 
+	 top: 1237px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 16px;
+	 z-index:107;
+} 
+
+ #RoundedRectangle3_6 
+{ 
+	 left: 789px; 
+	 top: 1485px; 
+	 position: absolute; 
+	 width: 342px;
+	 height: 119px;
+	 z-index:108;
+} 
+
+ #Jan2013Dec2014_6 
+{ 
+	 left: 832px; 
+	 top: 1527px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 15px;
+	 z-index:109;
+} 
+
+ #Loremipsumdolorsitam_6 
+{ 
+	 left: 833px; 
+	 top: 1552px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 34px;
+	 z-index:110;
+} 
+
+ #Academy_0 
+{ 
+	 left: 969px; 
+	 top: 1504px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 16px;
+	 z-index:111;
+} 
+
+ #CreativeDirector 
+{ 
+	 left: 832px; 
+	 top: 1505px; 
+	 position: absolute; 
+	 width: 127px;
+	 height: 13px;
+	 z-index:112;
+} 
+
+ #Shape10_0 
+{ 
+	 left: 758px; 
+	 top: 1247px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 422px;
+	 z-index:113;
+} 
+
+ #Ellipse4_1 
+{ 
+	 left: 742px; 
+	 top: 1218px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:114;
+} 
+
+ #Ellipse4copy2_0 
+{ 
+	 left: 751px; 
+	 top: 1227px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:115;
+} 
+
+ #Ellipse4copy_1 
+{ 
+	 left: 742px; 
+	 top: 1378px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:116;
+} 
+
+ #Ellipse4copy3_0 
+{ 
+	 left: 751px; 
+	 top: 1386px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:117;
+} 
+
+ #Ellipse4_2 
+{ 
+	 left: 742px; 
+	 top: 1487px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:118;
+} 
+
+ #Ellipse4copy4_0 
+{ 
+	 left: 751px; 
+	 top: 1496px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:119;
+} 
+
+ #Ellipse4copy_2 
+{ 
+	 left: 742px; 
+	 top: 1646px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 36px;
+	 z-index:120;
+} 
+
+ #Ellipse4copy5_0 
+{ 
+	 left: 751px; 
+	 top: 1654px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 19px;
+	 z-index:121;
+} 
+
+ #Rectangle43_0 
+{ 
+	 left: 388px; 
+	 top: 1180px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 5px;
+	 z-index:122;
+} 
+
+ #WorkExperience 
+{ 
+	 left: 390px; 
+	 top: 1139px; 
+	 position: absolute; 
+	 width: 258px;
+	 height: 31px;
+	 z-index:123;
+} 
+
+ #Rectangle41 
+{ 
+	 left: 368px; 
+	 top: 458px; 
+	 position: absolute; 
+	 width: 850px;
+	 height: 523px;
+	 z-index:124;
+} 
+
+ #Layer33 
+{ 
+	 left: 809px; 
+	 top: 516px; 
+	 position: absolute; 
+	 width: 321px;
+	 height: 491px;
+	 z-index:125;
+} 
+
+ #Rectangle42 
+{ 
+	 left: 388px; 
+	 top: 718px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 259px;
+	 z-index:126;
+} 
+
+ #Shape9 
+{ 
+	 left: 388px; 
+	 top: 718px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 4px;
+	 z-index:127;
+} 
+
+ #Shape9copy 
+{ 
+	 left: 388px; 
+	 top: 769px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 4px;
+	 z-index:128;
+} 
+
+ #Shape9copy2 
+{ 
+	 left: 388px; 
+	 top: 820px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 4px;
+	 z-index:129;
+} 
+
+ #Shape9copy3 
+{ 
+	 left: 388px; 
+	 top: 871px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 4px;
+	 z-index:130;
+} 
+
+ #Shape9copy4 
+{ 
+	 left: 388px; 
+	 top: 922px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 4px;
+	 z-index:131;
+} 
+
+ #Shape9copy5 
+{ 
+	 left: 388px; 
+	 top: 973px; 
+	 position: absolute; 
+	 width: 363px;
+	 height: 4px;
+	 z-index:132;
+} 
+
+ #NameAlRayhanAge23Yea 
+{ 
+	 left: 389px; 
+	 top: 739px; 
+	 position: absolute; 
+	 width: 275px;
+	 height: 217px;
+	 z-index:133;
+} 
+
+ #Loremipsumdolorsitam_7 
+{ 
+	 left: 389px; 
+	 top: 717px; 
+	 position: absolute; 
+	 width: 345px;
+	 height: 63px;
+	 z-index:134;
+} 
+
+ #Loremipsumdolorsitam_8 
+{ 
+	 left: 390px; 
+	 top: 630px; 
+	 position: absolute; 
+	 width: 351px;
+	 height: 66px;
+	 z-index:135;
+} 
+
+ #HiimAlRayhanUIUXExpe 
+{ 
+	 left: 389px; 
+	 top: 593px; 
+	 position: absolute; 
+	 width: 385px;
+	 height: 18px;
+	 z-index:136;
+} 
+
+ #Rectangle43copy 
+{ 
+	 left: 388px; 
+	 top: 594px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 5px;
+	 z-index:137;
+} 
+
+ #AboutMe 
+{ 
+	 left: 390px; 
+	 top: 553px; 
+	 position: absolute; 
+	 width: 146px;
+	 height: 25px;
+	 z-index:138;
+} 
+
+ #Layer34 
+{ 
+	 left: 390px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 40px;
+	 z-index:139;
+} 
+
+ #HeaderBg 
+{ 
+	 left: 273px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 953px;
+	 height: 438px;
+	 z-index:140;
+} 
+
+ #Layer1 
+{ 
+	 left: 271px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 956px;
+	 height: 544px;
+	 z-index:141;
+} 
+
+ #HireBtn 
+{ 
+	 left: 621px; 
+	 top: 270px; 
+	 position: absolute; 
+	 width: 173px;
+	 height: 52px;
+	 z-index:142;
+} 
+
+ #HireMe_0 
+{ 
+	 left: 667px; 
+	 top: 289px; 
+	 position: absolute; 
+	 width: 82px;
+	 height: 16px;
+	 z-index:143;
+} 
+
+ #ImanUIdesignerthatpr 
+{ 
+	 left: 462px; 
+	 top: 176px; 
+	 position: absolute; 
+	 width: 491px;
+	 height: 43px;
+	 z-index:144;
+} 
+
+ #LetsMakeSomethingGre 
+{ 
+	 left: 396px; 
+	 top: 115px; 
+	 position: absolute; 
+	 width: 624px;
+	 height: 46px;
+	 z-index:145;
+} 
+
+ #HeaderBgcopy 
+{ 
+	 left: -1px; 
+	 top: -3px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 4606px;
+	 z-index:146;
+} 
+
+ #Rectangle7 
+{ 
+	 left: -1px; 
+	 top: -2px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 223px;
+	 z-index:147;
+} 
+
+ #Layer31 
+{ 
+	 left: -6px; 
+	 top: -3px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 258px;
+	 z-index:148;
+} 
+
+ #Rectangle48 
+{ 
+	 left: -1px; 
+	 top: 314px; 
+	 position: absolute; 
+	 width: 277px;
+	 height: 88px;
+	 z-index:149;
+} 
+
+ #HomeAboutMeEducation 
+{ 
+	 left: 30px; 
+	 top: 242px; 
+	 position: absolute; 
+	 width: 175px;
+	 height: 389px;
+	 z-index:150;
+} 
+
+ #Shape11 
+{ 
+	 left: -2px; 
+	 top: 280px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 4px;
+	 z-index:151;
+} 
+
+ #Shape11copy 
+{ 
+	 left: -2px; 
+	 top: 342px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 3px;
+	 z-index:152;
+} 
+
+ #Shape11copy2 
+{ 
+	 left: -2px; 
+	 top: 403px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 4px;
+	 z-index:153;
+} 
+
+ #Shape11copy3 
+{ 
+	 left: -2px; 
+	 top: 466px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 3px;
+	 z-index:154;
+} 
+
+ #Shape11copy4 
+{ 
+	 left: -2px; 
+	 top: 527px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 4px;
+	 z-index:155;
+} 
+
+ #Shape11copy5 
+{ 
+	 left: -2px; 
+	 top: 589px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 4px;
+	 z-index:156;
+} 
+
+ #Shape11copy6 
+{ 
+	 left: -2px; 
+	 top: 651px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 3px;
+	 z-index:157;
+} 
+
+ #Shape11copy7 
+{ 
+	 left: -2px; 
+	 top: 218px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 4px;
+	 z-index:158;
+} 
+
+ #Rectangle50copy3 
+{ 
+	 left: 48px; 
+	 top: 33px; 
+	 position: absolute; 
+	 width: 19px;
+	 height: 20px;
+	 z-index:159;
+} 
+
+ #UiuxExpert 
+{ 
+	 left: 29px; 
+	 top: 190px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 16px;
+	 z-index:160;
+} 
+
+ #AlRayhan 
+{ 
+	 left: 30px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 32px;
+	 z-index:161;
+} 
+
+ #SectionSeparator 
+{ 
+	 left: 368px; 
+	 top: 1058px; 
+	 position: absolute; 
+	 width: 773px;
+	 height: 4px;
+	 z-index:162;
+} 
+
+ #SectionSeparatorcopy 
+{ 
+	 left: 368px; 
+	 top: 1758px; 
+	 position: absolute; 
+	 width: 773px;
+	 height: 4px;
+	 z-index:163;
+} 
+
+ #SectionSeparatorcopy_0 
+{ 
+	 left: 368px; 
+	 top: 3348px; 
+	 position: absolute; 
+	 width: 773px;
+	 height: 4px;
+	 z-index:164;
+} 
+
+ #SectionGap 
+{ 
+	 left: 510px; 
+	 top: 3268px; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 83px;
+	 z-index:165;
+} 
+
+ #SectionGapcopy 
+{ 
+	 left: 497px; 
+	 top: 2869px; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 83px;
+	 z-index:166;
+} 
+
+ #Guides 
+{ 
+	 left: 10px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1120px;
+	 height: 3450px;
+	 z-index:167;
+} 

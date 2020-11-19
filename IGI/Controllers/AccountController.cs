@@ -55,13 +55,15 @@ namespace IGI.Controllers
                     }
                     avatar = new Image { Name = imageName, Path = path };
                 }
-                User user = new User { Email = model.Email, UserName = model.Username, Path = path };
-                // добавляем пользователя
+                User user = new User(model.Username, model.Email, path, model.Name, model.Surname, model.Age, model.Country);
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    context.Files.Add(avatar);
-                    context.SaveChanges();
+                    if (avatar != null)
+                    {
+                        context.Files.Add(avatar);
+                        context.SaveChanges();
+                    }
                     // установка куки
                     await _signInManager.SignInAsync(user, false);
                     return RedirectToAction("Index", "Home");

@@ -11,9 +11,29 @@
     <div class="validation" asp-validation-summary="ModelOnly"></div>
     <div>
         <div>
-            <label asp-for="Username">Введите имя пользователя</label><br />
+            <label asp-for="Username">Никнейм</label><br />
             <input type="text" asp-for="Username" />
             <span asp-validation-for="Username" />
+        </div>
+        <div>
+            <label asp-for="Name">Введите имя</label><br />
+            <input type="text" asp-for="Name" />
+            <span asp-validation-for="Name" />
+        </div>
+        <div>
+            <label asp-for="Surname">Введите фамилию</label><br />
+            <input type="text" asp-for="Surname" />
+            <span asp-validation-for="Surname" />
+        </div>
+        <div>
+            <label asp-for="Age">Введите возраста</label><br />
+            <input type="number" asp-for="Age" />
+            <span asp-validation-for="Age" />
+        </div>
+        <div>
+            <label asp-for="Country">Введите Страну</label><br />
+            <input type="text" asp-for="Country" />
+            <span asp-validation-for="Country" />
         </div>
         <div>
             <label asp-for="Email">Введите Email</label><br />
@@ -30,6 +50,7 @@
             <input asp-for="ConfirmPassword" />
             <span asp-validation-for="ConfirmPassword" />
         </div>
+        <br />
         <div>
             <label asp-for="Avatar">Выберите картинку</label><br />
             <input asp-for="Avatar" text />
