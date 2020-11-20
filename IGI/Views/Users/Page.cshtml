@@ -3,10 +3,17 @@
         <div class="container">
             <img class="profile-image img-responsive pull-left" width="180" height="180" src="@Url.Content(Model.Path)" alt="James Lee" />
             <div class="profile-content pull-left">
-                <h1 class="name">@Model.Name @Model.Surname</h1>
+                    <h1 class="name">
+                        @Model.Name 
+                        @Model.Surname 
+                        @if (Model.EmailConfirmed)
+                        {
+                            <img src="@Url.Content("/files/iconVerification.jpg")" width="20"/>
+                        }
+                    </h1>
                 <h2 class="desc">@Model.UserName</h2>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="#" <i class="fa fa-paper-plane"></i>Сообщение</a>
+            <a class="btn btn-cta-primary pull-right"  asp-controller="Users" asp-action="Verification" asp-area=""> <i class="fa fa-paper-plane"></i>Сообщение</a>
         </div><!--//container-->
     </header>
     <div class="container sections-wrapper">

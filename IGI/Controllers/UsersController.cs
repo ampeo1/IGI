@@ -25,12 +25,14 @@ namespace IGI.Controllers
             {
                 id = User.Identity.GetUserId();
             }
-            return View(users.GetUser(id));
+            User user = users.GetUser(id);
+            return View(user);
         }
 
         public IActionResult AllUsers()
         {
             return View(users.GetAllUsers);
         }
+        
     }
 }
