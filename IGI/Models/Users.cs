@@ -17,5 +17,7 @@ namespace IGI.Models
 
         public IEnumerable<User> GetAllUsers => context.Users;
         public User GetUser(string id) => context.Users.FirstOrDefault(user => user.Id == id);
+
+        public User GetUserFromName(string name) => context.Users.FirstOrDefault(user => user.UserName == name);
     }
 }

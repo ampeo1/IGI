@@ -33,7 +33,7 @@ namespace IGI
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<User, IdentityRole>()
-               .AddEntityFrameworkStores<UserContext>();
+               .AddEntityFrameworkStores<UserContext>().AddDefaultTokenProviders();
 
             services.AddSignalR();
 

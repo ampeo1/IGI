@@ -66,6 +66,7 @@ namespace IGI.Controllers
                     }
                     // установка куки
                     await _signInManager.SignInAsync(user, false);
+                    SendMailVerification(user.Email, user.UserName);
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -120,6 +121,23 @@ namespace IGI.Controllers
             // удаляем аутентификационные куки
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> VerificationAsync(string name)
+        {
+            Users users = new Users(context);
+            User user = users.GetUserFromName(name);
+            string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            await _userManager.ConfirmEmailAsync(user, token);
+
+            return View();
+        }
+
+        public async void SendMailVerification(string mail, string name)
+        {
+            EmailService email = new EmailService();
+            await email.VerificationAsync(mail, name);
         }
     }
 }
