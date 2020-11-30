@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IGI.ViewModels.MessageModel
+<div class="container">
+    <form asp-action="Send" asp-controller="Message" asp-anti-forgery="true" method="post">
+        <input type="hidden" asp-for="AddresseeId" value="@Model.AddresseeId"/>
+        <input type="hidden" value="@User.Identity.Name" id="userInput" />
+        <div class="row">
+            <div class="col-2">Message</div>
+            <div class="col-4"><input type="text" asp-for="Text" id="messageInput" /></div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">
+                <input type="submit" id="sendButton" value="Send Message" />
+            </div>
+        </div>
+    </form>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <div>
+            @foreach (Message message in Model.Messages)
+            {
+                <div style="margin: 10px; background-color: #7E6AD2; color: #FFFC6F;text-align: center;">
+                    <span>@message.Username</span>
+                    <br />
+                    <span>@message.Text</span>
+                    <br />
+                    <span>@message.Date</span>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<!--<script src="~/js/chat.js"></script>-->

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.SignalR;
 
 namespace IGI.Models
 {
@@ -27,6 +28,11 @@ namespace IGI.Models
             Surname = surname;
             Age = age;
             Country = country;
+        }
+
+        public string getToken()
+        {
+            return "";
         }
     }
 }

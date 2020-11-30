@@ -9,11 +9,11 @@
                         @if (Model.EmailConfirmed)
                         {
                             <img src="@Url.Content("/files/iconVerification.jpg")" width="20"/>
-                        }
+                        }   
                     </h1>
                 <h2 class="desc">@Model.UserName</h2>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right"  asp-controller="Users" asp-action="Verification" asp-area=""> <i class="fa fa-paper-plane"></i>Сообщение</a>
+            <a class="btn btn-cta-primary pull-right"  asp-controller="Message" asp-action="Send" asp-area="" asp-route-id="@Model.Id"> <i class="fa fa-paper-plane"></i>Сообщение</a>
         </div><!--//container-->
     </header>
     <div class="container sections-wrapper">

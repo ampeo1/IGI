@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using IGI.Interface;
 using IGI.Models;
 using IGI.ViewModels;
 using Microsoft.AspNetCore.Authentication;
@@ -126,7 +127,7 @@ namespace IGI.Controllers
         [HttpGet]
         public async Task<IActionResult> VerificationAsync(string name)
         {
-            Users users = new Users(context);
+            Users users = new Users(context); //переделать
             User user = users.GetUserFromName(name);
             string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             await _userManager.ConfirmEmailAsync(user, token);

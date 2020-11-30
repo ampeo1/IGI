@@ -8,9 +8,14 @@ namespace IGI.Models
 {
     public class ChatHub: Hub
     {
-        public async Task Send(string message)
+        public async Task SendMessage(string message, string username)
         {
-            await this.Clients.All.SendAsync("Send", message);
+            await this.Clients.All.SendAsync("ReceiveMessage", message, username);
+        }
+
+        public string getToken(string id)
+        {
+            return Clients.User(id).ToString();
         }
     }
 }
