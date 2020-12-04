@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Security.Claims;
@@ -14,6 +15,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace IGI.Controllers
 {
@@ -23,13 +25,15 @@ namespace IGI.Controllers
         private readonly SignInManager<User> _signInManager;
         UserContext context;
         IWebHostEnvironment appEnvironment;
+        IConfiguration configuration;
 
-        public AccountController(UserContext context, IWebHostEnvironment appEnvironment, UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserContext context, IWebHostEnvironment appEnvironment, UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration)
         {
             this.context = context;
             this.appEnvironment = appEnvironment;
             _userManager = userManager;
             _signInManager = signInManager;
+            this.configuration = configuration;
         }
 
         [HttpGet]
@@ -49,7 +53,7 @@ namespace IGI.Controllers
                 {
                     imageName = model.Username + "_" + DateTime.Now.ToString().Replace(' ', '_') + "_" + model.Avatar.FileName;
                     //path = "\\files\\" + imageName;
-                    path = "/files/" + model.Avatar.FileName;
+                    path = configuration.GetSection("ImagePath").Value + model.Avatar.FileName;
                     using (var fileStream = new FileStream(appEnvironment.WebRootPath + path, FileMode.Create))
                     {
                         await model.Avatar.CopyToAsync(fileStream);
@@ -67,7 +71,7 @@ namespace IGI.Controllers
                     }
                     // установка куки
                     await _signInManager.SignInAsync(user, false);
-                    SendMailVerification(user.Email, user.UserName);
+                    SendMailVerification(user);
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -125,20 +129,19 @@ namespace IGI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> VerificationAsync(string name)
+        public async Task<IActionResult> VerificationAsync(string username, string token)
         {
-            Users users = new Users(context); //переделать
-            User user = users.GetUserFromName(name);
-            string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            User user = context.Users.FirstOrDefault(user => user.UserName == username);
             await _userManager.ConfirmEmailAsync(user, token);
 
             return View();
         }
 
-        public async void SendMailVerification(string mail, string name)
+        public async void SendMailVerification(User user)
         {
-            EmailService email = new EmailService();
-            await email.VerificationAsync(mail, name);
+            EmailService email = new EmailService(configuration);
+            string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            await email.VerificationAsync(user.Email, user.UserName, token);
         }
     }
 }

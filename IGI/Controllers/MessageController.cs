@@ -34,11 +34,11 @@ namespace IGI.Controllers
                     return View(model);
                 }
             }
-            return View();
+            return NotFound();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Send(MessageModel model)
+        public IActionResult Send(MessageModel model)
         {
             if (ModelState.IsValid)
             {
@@ -50,10 +50,10 @@ namespace IGI.Controllers
                 message.AddresseeId = model.AddresseeId;
                 message.Username = User.Identity.Name;
                 context.Messages.Add(message);
-                await context.SaveChangesAsync();
-                return Redirect($"~/Message/Send?id={model.AddresseeId}");
+                context.SaveChanges();
+                return Send(model.AddresseeId);
             }
-            return Redirect("~/Home/Privacy/");
+            return NotFound();
         }
     }
 }

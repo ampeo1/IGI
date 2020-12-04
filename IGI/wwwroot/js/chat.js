@@ -3,27 +3,23 @@
 var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
 //Disable send button until connection is established
-document.getElementById("sendButton").disabled = true;
 
-connection.on("ReceiveMessage", function (user, message) {
+connection.on("ReceiveMessage", function (message, user) {
     var msg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    var encodedMsg = user + " says " + msg;
-    var li = document.createElement("li");
-    li.textContent = encodedMsg;
-    document.getElementById("messagesList").appendChild(li);
-});
-
-connection.start().then(function () {
-    document.getElementById("sendButton").disabled = false;
-}).catch(function (err) {
-    return console.error(err.toString());
+    var div = document.createElement("div");
+    var now = new Date();
+    div.style.margin = 10 + "px";
+    div.style.backgroundColor = "#7E6AD2";
+    div.style.color = "#FFFC6F";
+    div.style.textAlign = "center";
+    div.innerHTML = "<span>" + user + "</span><br />" + "<span>" + msg + "</span><br />" + "<span>" + now.toISOString() + "</span>";
+    document.getElementById("listMessage").appendChild(div);
 });
 
 document.getElementById("sendButton").addEventListener("click", function (event) {
-    var user = document.getElementById("userInput").value;
+    var user = document.getElementById("AddresseUsername").value;
     var message = document.getElementById("messageInput").value;
-    connection.invoke("SendMessage", user, message).catch(function (err) {
-        return console.error(err.toString());
-    });
-    event.preventDefault();
+    connection.invoke("SendMessage", message, user)
 });
+
+connection.start();

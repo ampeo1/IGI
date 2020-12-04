@@ -1,0 +1,775 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+The host 'localhost:44343' does not match an allowed host.
+Request finished in 118.1241ms 400 text/html
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (366ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+Executed DbCommand (59ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+Executed DbCommand (52ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 524.2803ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 672.9897ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 248.495ms 404 text/plain
+Request finished in 9590.9854ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 60.3353ms 404 text/plain
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 739.3851ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 1037.3263ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 2420.8808ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 138.3069ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 223.6969ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An unhandled exception has occurred while executing the request.
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 18.0485ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An exception was thrown attempting to execute the error handler.
+Connection ID "18230571293206380635", Request ID "8000005c-0000-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Request finished in 826.2762ms 500 
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 45.8153ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 17433.1021ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An unhandled exception has occurred while executing the request.
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 3587.1028ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An exception was thrown attempting to execute the error handler.
+Connection ID "18230571293206380637", Request ID "8000005e-0000-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Request finished in 21824.6538ms 500 
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 482.7956ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 733.5821ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 2920.7249ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 232.691ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 10169.3099ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An unhandled exception has occurred while executing the request.
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 2102.9444ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An exception was thrown attempting to execute the error handler.
+Connection ID "17942340921349636295", Request ID "800000c8-0001-f900-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Request finished in 12867.5271ms 500 
+Request starting HTTP/2.0 GET https://localhost:44343/ss  
+Request finished in 41.2411ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 63108.2826ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An unhandled exception has occurred while executing the request.
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view 404.
+The view '404' was not found. Searched locations: /Views/Error/404.cshtml, /Views/Shared/404.cshtml
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 5587.2777ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+An exception was thrown attempting to execute the error handler.
+Connection ID "18374686481282236735", Request ID "80000140-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Request finished in 79953.2783ms 500 
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 1044.6345ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 1295.8876ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 2650.6668ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 24.1367ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 4768.8203ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 12924.4541ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 13343.714ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 42.4608ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 34.2743ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 1868.7815ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 272.7957ms 302 
+Request finished in 2512.9329ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 31.8224ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 1456.3428ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 1736.2047ms 200 text/html; charset=utf-8
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 524.8336ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 927.9739ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 2191.1683ms 200 text/html; charset=utf-8
+Request finished in 82.6754ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 46.6434ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 145.5492ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 331.7847ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 29.1944ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 122.7473ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 155.1805ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 282.3355ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 25.7625ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 17.0819ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 135.8855ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 530.3782ms 200 text/html; charset=utf-8
+Request finished in 118.2816ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 12.9608ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 21.3979ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 119.0118ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 44.7611ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 24.9707ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 71.705ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 130.9951ms 200 text/html; charset=utf-8
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 548.4342ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 635.6428ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 1978.5961ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 416.0225ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 499.1853ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 849.2601ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 64.3774ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 13.9321ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 48.0196ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 132.2818ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 31.0387ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 9.9914ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 19.4981ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 519.0578ms 200 text/html; charset=utf-8
+Request finished in 32.0881ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 9.522ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 19.2684ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 149.2121ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 28.0631ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 10.5324ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 18.0107ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 76.7439ms 200 text/html; charset=utf-8
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 654.8516ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 790.0398ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 2271.0238ms 200 text/html; charset=utf-8
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 233.842ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 506.3129ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 748.8825ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 322.043ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 17.0881ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 29.6234ms
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 152.8146ms 302 
+Request finished in 302.3131ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 9.9081ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 262.7983ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 30.2172ms 302 
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Request finished in 363.8306ms 200 text/html; charset=utf-8
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 11.5866ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 28.6777ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 99.5864ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map  
+Request starting HTTP/2.0 GET https://localhost:44343/lib/bootstrap/dist/css/bootstrap.min.css.map  
+Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\C#\IGi_v3\IGI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+Request finished in 1348.0415ms 200 text/plain
+Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'D:\C#\IGi_v3\IGI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+Request finished in 1132.9912ms 200 text/plain
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (325ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+Executed DbCommand (135ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+Executed DbCommand (45ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 528.5296ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 593.9611ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 9351.9724ms 200 text/html; charset=utf-8
+Request finished in 76.7273ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 310.4592ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 356.9609ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 468.3511ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44343/Account/Logout application/x-www-form-urlencoded 225
+Executing endpoint 'IGI.Controllers.AccountController.Logout (IGI)'
+Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller IGI.Controllers.AccountController (IGI).
+AuthenticationScheme: Identity.Application signed out.
+AuthenticationScheme: Identity.External signed out.
+AuthenticationScheme: Identity.TwoFactorUserId signed out.
+Executing RedirectResult, redirecting to /.
+Executed action IGI.Controllers.AccountController.Logout (IGI) in 191.8468ms
+Executed endpoint 'IGI.Controllers.AccountController.Logout (IGI)'
+Request finished in 270.147ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 12.6123ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 18.2941ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 825.1271ms 200 text/html; charset=utf-8
+Request finished in 187.4426ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 8.1564ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 17.9105ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 77.8027ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Account/Login  
+Executing endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller IGI.Controllers.AccountController (IGI).
+Executing ViewResult, running view Login.
+Executed ViewResult - view Login executed in 463.5199ms.
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed action IGI.Controllers.AccountController.Login (IGI) in 1012.2137ms
+Request finished in 220.8127ms 302 
+Executed endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Request finished in 1571.1212ms 200 text/html; charset=utf-8
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 10.9995ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 24.7802ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 525.2177ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44343/Account/Login application/x-www-form-urlencoded 213
+Executing endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(IGI.ViewModels.LoginModel) on controller IGI.Controllers.AccountController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (47ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+Executing ViewResult, running view Login.
+Executed ViewResult - view Login executed in 14.693ms.
+Executed action IGI.Controllers.AccountController.Login (IGI) in 418.6046ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Request finished in 24.5215ms 302 
+Request finished in 647.4067ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 12.8593ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 28.3208ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 66.572ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44343/Account/Login application/x-www-form-urlencoded 213
+Executing endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(IGI.ViewModels.LoginModel) on controller IGI.Controllers.AccountController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (127ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+Executing ViewResult, running view Login.
+Executed ViewResult - view Login executed in 27.5352ms.
+Executed action IGI.Controllers.AccountController.Login (IGI) in 650.4208ms
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Executed endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Request finished in 913.4301ms 200 text/html; charset=utf-8
+Request finished in 32.449ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 22.0377ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 43.156ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 163.1087ms 200 text/html; charset=utf-8
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\C#\IGi_v3\IGI
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 488.0986ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 559.2458ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 1104.3708ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 78.7935ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 617.3795ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 818.3226ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 1097.1697ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Account/Login  
+Executing endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller IGI.Controllers.AccountController (IGI).
+Executing ViewResult, running view Login.
+Executed ViewResult - view Login executed in 217.9448ms.
+Executed action IGI.Controllers.AccountController.Login (IGI) in 241.1033ms
+Executed endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Request finished in 399.1741ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 87.5318ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 17.8398ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 28.8186ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 371.5688ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44343/Account/Login application/x-www-form-urlencoded 213
+Executing endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(IGI.ViewModels.LoginModel) on controller IGI.Controllers.AccountController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (75ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (114ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+Executed DbCommand (85ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+Executed DbCommand (115ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (66ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+AuthenticationScheme: Identity.Application signed in.
+Executing RedirectResult, redirecting to /.
+Executed action IGI.Controllers.AccountController.Login (IGI) in 2013.7299ms
+Executed endpoint 'IGI.Controllers.AccountController.Login (IGI)'
+Request finished in 2424.4125ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/  
+Executing endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IGI.Controllers.HomeController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 32.001ms.
+Executed action IGI.Controllers.HomeController.Index (IGI) in 45.4974ms
+Executed endpoint 'IGI.Controllers.HomeController.Index (IGI)'
+Request finished in 108.6072ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 150.5753ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 147.1108ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 162.2633ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 274.4728ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/a  
+Request finished in 37.2467ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 71.3627ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 231.3476ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 790.4516ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 34.0812ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 13.3034ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 23.3361ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 84.828ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Admin/UserList  
+Authorization was successful.
+Executing endpoint 'IGI.Controllers.AdminController.UserList (IGI)'
+Route matched with {action = "UserList", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller IGI.Controllers.AdminController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (98ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+Executed DbCommand (57ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (49ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[Age], [a0].[ConcurrencyStamp], [a0].[Country], [a0].[Email], [a0].[EmailConfirmed], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[Name], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[Path], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[Surname], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+Executing ViewResult, running view UserList.
+Executed ViewResult - view UserList executed in 70.4419ms.
+Executed action IGI.Controllers.AdminController.UserList (IGI) in 538.9501ms
+Executed endpoint 'IGI.Controllers.AdminController.UserList (IGI)'
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Request finished in 990.0754ms 200 text/html; charset=utf-8
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 7.0733ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 23.3115ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 106.2421ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44343/Admin/Edit/65cd30fc-d495-4c7d-ad6b-424cd86214cd application/x-www-form-urlencoded 225
+Authorization was successful.
+Executing endpoint 'IGI.Controllers.AdminController.Edit (IGI)'
+Route matched with {action = "Edit", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.String) on controller IGI.Controllers.AdminController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executing HttpStatusCodeResult, setting HTTP status code 404
+Executed action IGI.Controllers.AdminController.Edit (IGI) in 50.5326ms
+Executed endpoint 'IGI.Controllers.AdminController.Edit (IGI)'
+Request finished in 224.0354ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 9.8454ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 20.5616ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 53.9774ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/js/site.js  
+Request finished in 66.5287ms 302 
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 8.2683ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 17.9898ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 80.3166ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Admin/UserList  
+Authorization was successful.
+Executing endpoint 'IGI.Controllers.AdminController.UserList (IGI)'
+Route matched with {action = "UserList", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller IGI.Controllers.AdminController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (84ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[ConcurrencyStamp], [a].[Country], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[Path], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+Executed DbCommand (47ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (46ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [a0].[Id], [a0].[AccessFailedCount], [a0].[Age], [a0].[ConcurrencyStamp], [a0].[Country], [a0].[Email], [a0].[EmailConfirmed], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[Name], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[Path], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[Surname], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetUsers] AS [a0] ON [a].[UserId] = [a0].[Id]
+WHERE [a].[RoleId] = @__role_Id_0
+Executing ViewResult, running view UserList.
+Executed ViewResult - view UserList executed in 9.1721ms.
+Executed action IGI.Controllers.AdminController.UserList (IGI) in 270.7618ms
+Executed endpoint 'IGI.Controllers.AdminController.UserList (IGI)'
+Request finished in 754.4616ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44343/Error/Index?code=404  
+Executing endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Route matched with {action = "Index", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller IGI.Controllers.ErrorController (IGI).
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 7.1331ms.
+Executed action IGI.Controllers.ErrorController.Index (IGI) in 14.4791ms
+Executed endpoint 'IGI.Controllers.ErrorController.Index (IGI)'
+Request finished in 56.2342ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44343/Admin/Edit/65cd30fc-d495-4c7d-ad6b-424cd86214cd application/x-www-form-urlencoded 225
+Authorization was successful.
+Executing endpoint 'IGI.Controllers.AdminController.Edit (IGI)'
+Route matched with {action = "Edit", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.String) on controller IGI.Controllers.AdminController (IGI).
+Entity Framework Core 5.0.0 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\C#\IGi_v3\IGI

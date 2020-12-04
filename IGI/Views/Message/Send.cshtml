@@ -6,7 +6,9 @@
 @model IGI.ViewModels.MessageModel
 <div class="container">
     <form asp-action="Send" asp-controller="Message" asp-anti-forgery="true" method="post">
-        <input type="hidden" asp-for="AddresseeId" value="@Model.AddresseeId"/>
+        <input type="hidden" asp-for="Messages" value="@Model.Messages"/>
+        <input type="hidden" asp-for="AddresseeId" value="@Model.AddresseeId" id="AddresseeId" />
+        <input type="hidden" asp-for="AddresseeIdUsername" value="@Model.AddresseeIdUsername" id="AddresseUsername"/>
         <input type="hidden" value="@User.Identity.Name" id="userInput" />
         <div class="row">
             <div class="col-2">Message</div>
@@ -27,7 +29,7 @@
 </div>
 <div class="row">
     <div class="col-6">
-        <div>
+        <div id="listMessage">
             @foreach (Message message in Model.Messages)
             {
                 <div style="margin: 10px; background-color: #7E6AD2; color: #FFFC6F;text-align: center;">
@@ -42,4 +44,4 @@
     </div>
 </div>
 <script src="~/js/signalr/dist/browser/signalr.js"></script>
-<!--<script src="~/js/chat.js"></script>-->
+<script src="~/js/chat.js"></script>

@@ -30,6 +30,10 @@ namespace IGI.Models
             Country = country;
         }
 
+        public User()
+        {
+        }
+
         public string getToken()
         {
             return "";
