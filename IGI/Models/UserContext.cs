@@ -15,5 +15,8 @@ namespace IGI.Models
         }
         public DbSet<Image> Files { get; set; }
         public DbSet<Message> Messages { get; set; }
+
+        public DbSet<Publication> Publications { get; set; }
+        public DbSet<Comment> Comments { get; set; }
     }
 }

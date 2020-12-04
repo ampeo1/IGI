@@ -1,19 +1,19 @@
 ﻿   <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" width="180" height="180" src="@Url.Content(Model.Path)" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" width="180" height="180" src="@Url.Content(Model.user.Path)" alt="" />
             <div class="profile-content pull-left">
                     <h1 class="name">
-                        @Model.Name 
-                        @Model.Surname 
-                        @if (Model.EmailConfirmed)
+                        @Model.user.Name 
+                        @Model.user.Surname 
+                        @if (Model.user.EmailConfirmed)
                         {
                             <img src="@Url.Content("/files/iconVerification.jpg")" width="20"/>
                         }   
                     </h1>
-                <h2 class="desc">@Model.UserName</h2>
+                <h2 class="desc">@Model.user.UserName</h2>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right"  asp-controller="Message" asp-action="Send" asp-area="" asp-route-id="@Model.Id"> <i class="fa fa-paper-plane"></i>Сообщение</a>
+            <a class="btn btn-cta-primary pull-right"  asp-controller="Message" asp-action="Send" asp-area="" asp-route-id="@Model.user.Id"> <i class="fa fa-paper-plane"></i>Сообщение</a>
         </div><!--//container-->
     </header>
     <div class="container sections-wrapper">
@@ -23,12 +23,48 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Возраст: @Model.Age</p>
-                            <p>Страна: @Model.Country</p>
-                            <p>Почта: @Model.Email</p>
+                            <p>Возраст: @Model.user.Age</p>
+                            <p>Страна: @Model.user.Country</p>
+                            <p>Почта: @Model.user.Email</p>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <form asp-action="NewPublication" asp-controller="Users" method="post">
+                <span>Новая запись</span>
+                <input type="text" name="text" />
+                <input type="hidden" name="username" value="@User.Identity.Name" />
+                <input type="hidden" name="pageId" value="@Model.user.Id" />
+                <input type="submit" value="Отправить" />
+            </form>
+            @foreach (Publication publication in Model.Publications)
+            {
+                <div style="margin:10px; background-color:#f5f5f5;">
+                    <span>@publication.UserName</span>
+                    <br />
+                    <span>@publication.Text</span>
+                </div>
+                @foreach (Comment comment in Model.Comments)
+                {
+                    @if (comment.IdPublication == publication.Id)
+                    {
+                        <div style="margin:10px; margin-left:40px; background-color:#fff;">
+                            <span>@comment.Username</span>
+                            <br />
+                            <span>@comment.Text</span>
+                        </div>
+                    }
+                }
+                <form asp-action="NewComment" asp-controller="Users" method="post">
+                    <input type="text" name="text" />
+                    <input type="hidden" name="username" value="@User.Identity.Name" />
+                    <input type="hidden" name="publicationId" value="@publication.Id" />
+                    <input type="submit" value="Отправить" />
+                </form>
+            }
         </div>
     </div>

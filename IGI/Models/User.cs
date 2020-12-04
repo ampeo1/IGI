@@ -32,6 +32,7 @@ namespace IGI.Models
 
         public User()
         {
+            Path = "/files/noAvatar.jpg";
         }
 
         public string getToken()

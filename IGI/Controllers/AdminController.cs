@@ -50,5 +50,17 @@ namespace IGI.Controllers
 
             return NotFound();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(string id)
+        {
+            User user = await _userManager.FindByIdAsync(id);
+            if(user != null)
+            {
+                await _userManager.DeleteAsync(user);
+                return RedirectToAction("Index", "Home");
+            }
+            return NotFound();
+        }
     }
 }
