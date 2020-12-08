@@ -21,7 +21,6 @@ namespace IGI.Models
             {
                 User admin = new User();
                 admin.UserName = "admin";
-                admin.Path = ""
                 IdentityResult result = await userManager.CreateAsync(admin, password);
                 if (result.Succeeded)
                 {
