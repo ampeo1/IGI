@@ -7,17 +7,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using System.Web.Mvc;
 using Microsoft.Extensions.Configuration;
+using IGI.Interface;
 
 namespace IGI.Models
 {
-    public class EmailService: Controller
+    public class EmailService: Controller, IEmailService
     {
-        IConfiguration configuration;
-        public EmailService(IConfiguration configuration)
-        {
-            this.configuration = configuration;
-        }
-        public async Task VerificationAsync(string mail, string name, string token)
+        public async Task VerificationAsync(string mail, string name, string token, IConfiguration configuration)
         {
             var emailMessage = new MimeMessage();
 

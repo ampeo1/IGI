@@ -44,7 +44,9 @@ namespace IGI.Controllers
             {
                 Message message = new Message();
                 message.Id = Guid.NewGuid().ToString();
-                message.Date = DateTime.Now;
+                message.Date = DateTime.UtcNow;
+                TimeZoneInfo belarusTZI = TimeZoneInfo.FindSystemTimeZoneById("Belarus Standard Time");
+                message.Date = TimeZoneInfo.ConvertTimeFromUtc(message.Date, belarusTZI);
                 message.Text = model.Text;
                 message.SenderId = User.Identity.GetUserId();
                 message.AddresseeId = model.AddresseeId;

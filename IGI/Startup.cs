@@ -45,6 +45,8 @@ namespace IGI
 
             services.AddSingleton<IUserIdProvider, UserProvider>();
 
+            services.AddScoped<IEmailService, EmailService>();
+
             // установка конфигурации подключения
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options => //CookieAuthenticationOptions

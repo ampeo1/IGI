@@ -26,14 +26,16 @@ namespace IGI.Controllers
         UserContext context;
         IWebHostEnvironment appEnvironment;
         IConfiguration configuration;
+        IEmailService emailService;
 
-        public AccountController(UserContext context, IWebHostEnvironment appEnvironment, UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration)
+        public AccountController(UserContext context, IWebHostEnvironment appEnvironment, UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration, IEmailService emailService)
         {
             this.context = context;
             this.appEnvironment = appEnvironment;
             _userManager = userManager;
             _signInManager = signInManager;
             this.configuration = configuration;
+            this.emailService = emailService;
         }
 
         [HttpGet]
@@ -139,9 +141,8 @@ namespace IGI.Controllers
 
         public async void SendMailVerification(User user)
         {
-            EmailService email = new EmailService(configuration);
             string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            await email.VerificationAsync(user.Email, user.UserName, token);
+            await emailService.VerificationAsync(user.Email, user.UserName, token, configuration);
         }
     }
 }
